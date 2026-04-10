@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Nome {
+public class FuncoesBasicas {
 
     public static Scanner entrada = new Scanner(System.in);
 
@@ -29,7 +29,7 @@ public class Nome {
         System.out.print(mensagem); // Entrada em uma unica linha
         valor_inteiro = entrada.nextInt();
 
-        return frase;
+        return valor_inteiro;
     }
     
     public static void main(String[] args) {
