@@ -32,6 +32,15 @@ public class FuncoesBasicas {
         return valor_inteiro;
     }
     
+    public static char lerCaractere(String mensagem) {
+        char caractere;
+    
+        System.out.print(mensagem);
+        caractere = entrada.next().charAt(0);
+    
+        return caractere;
+    }
+    
     public static void main(String[] args) {
         
         //variáveis
