@@ -17,12 +17,12 @@ public class Ex01 {
 
         int a, b, c, d, x1, x2, y1, y2;
 
-        a = lerInteiro("Digite o valor de A: ");
-        b = lerInteiro("Digite o valor de B: ");
-        c = lerInteiro("Digite o valor de C: ");
-        d = lerInteiro("Digite o valor de D: ");
-        x1 = lerInteiro("Digite o valor de X1: ");
-        x2 = lerInteiro("Digite o valor de X2: ");   
+        a = lerInteiro("a: ");
+        b = lerInteiro("b: ");
+        c = lerInteiro("c: ");
+        d = lerInteiro("d: ");
+        x1 = lerInteiro("x1: ");
+        x2 = lerInteiro("x2: ");   
 
         y1 = (a * x1) + (b * x2);
         y2 = (c * x1) + (d * x2);
