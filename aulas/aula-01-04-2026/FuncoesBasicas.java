@@ -4,14 +4,13 @@ public class FuncoesBasicas {
 
     public static Scanner entrada = new Scanner(System.in);
 
-    public static double lerReal(String mensagem) {
-
-        double valor_real;
+    public static int lerInteiro(String mensagem) {
+        int valor_inteiro;
 
         System.out.print(mensagem); // Entrada em uma unica linha
-        valor_real = entrada.nextDouble();
+        valor_inteiro = entrada.nextInt();
 
-        return valor_real;
+        return valor_inteiro;
     }
 
     public static String lerFrase(String mensagem) {
@@ -23,15 +22,16 @@ public class FuncoesBasicas {
         return frase;
     }
 
-    public static int lerInteiro(String mensagem) {
-        int valor_inteiro;
+    public static double lerReal(String mensagem) {
+
+        double valor_real;
 
         System.out.print(mensagem); // Entrada em uma unica linha
-        valor_inteiro = entrada.nextInt();
+        valor_real = entrada.nextDouble();
 
-        return valor_inteiro;
+        return valor_real;
     }
-    
+
     public static char lerCaractere(String mensagem) {
         char caractere;
     
